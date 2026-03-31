@@ -1,0 +1,68 @@
+# Python 3.10.12
+
+# =========================
+# Core Deep Learning
+# =========================
+torch>=2.7,<2.8
+torchvision>=0.22,<0.23
+lightning>=2.5,<2.6
+torchmetrics>=1.7,<1.8
+captum>=0.8,<0.9
+
+# =========================
+# Transformers / NLP
+# =========================
+transformers>=4.57,<4.58
+tokenizers>=0.22,<0.23
+safetensors>=0.4,<0.5
+huggingface-hub>=0.36,<0.37
+sacremoses>=0.1,<0.2
+regex>=2024.11
+
+# =========================
+# Scientific Stack
+# =========================
+numpy>=1.26,<2.0
+pandas>=2.2,<2.3
+scipy>=1.15,<1.16
+scikit-learn>=1.6,<1.7
+scikit-image>=0.25,<0.26
+statsmodels>=0.14,<0.15
+sympy>=1.14,<1.15
+networkx>=3.2,<3.3
+
+# =========================
+# Visualization
+# =========================
+matplotlib>=3.9,<3.10
+seaborn>=0.13,<0.14
+cmasher>=1.8,<1.9
+pillow>=10.4,<11
+imageio>=2.37,<3
+tifffile>=2025.5
+
+# =========================
+# Experiment Tracking
+# =========================
+wandb>=0.22,<0.23
+
+# =========================
+# Cloud (optional)
+# =========================
+boto3>=1.35,<1.36
+
+# =========================
+# Jupyter (optional)
+# =========================
+jupyterlab>=4.2,<4.3
+ipywidgets>=8.1,<8.2
+
+# =========================
+# Utilities
+# =========================
+tqdm>=4.66,<5
+prettytable>=3.13,<4
+PyYAML>=6.0,<7
+requests>=2.32,<3
+pydantic>=2.12,<3
+rpy2>=3.5,<4
